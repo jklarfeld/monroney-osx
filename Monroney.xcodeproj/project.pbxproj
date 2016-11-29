@@ -15,6 +15,7 @@
 		258BB4E51DED249B0059780C /* MonroneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BB4E41DED249B0059780C /* MonroneyUITests.swift */; };
 		25CF05A71DED2D95000F6060 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF05A61DED2D95000F6060 /* MainWindowController.swift */; };
 		25CF05A91DED2F83000F6060 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CF05A81DED2F83000F6060 /* MainWindow.xib */; };
+		25CF05AC1DED3620000F6060 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CF05AB1DED3620000F6060 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		258BB4E61DED249B0059780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25CF05A61DED2D95000F6060 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		25CF05A81DED2F83000F6060 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		25CF05AB1DED3620000F6060 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CF05AC1DED3620000F6060 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				258BB4D81DED249B0059780C /* MonroneyTests */,
 				258BB4E31DED249B0059780C /* MonroneyUITests */,
 				258BB4C41DED249B0059780C /* Products */,
+				25CF05AA1DED3620000F6060 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +162,14 @@
 				25CF05A61DED2D95000F6060 /* MainWindowController.swift */,
 			);
 			name = "Main Window Controller";
+			sourceTree = "<group>";
+		};
+		25CF05AA1DED3620000F6060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25CF05AB1DED3620000F6060 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
