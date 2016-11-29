@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		258BB4C71DED249B0059780C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BB4C61DED249B0059780C /* AppDelegate.swift */; };
+		258BB4CA1DED249B0059780C /* Monroney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 258BB4C81DED249B0059780C /* Monroney.xcdatamodeld */; };
+		258BB4CC1DED249B0059780C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258BB4CB1DED249B0059780C /* Assets.xcassets */; };
+		258BB4CF1DED249B0059780C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258BB4CD1DED249B0059780C /* MainMenu.xib */; };
+		258BB4DA1DED249B0059780C /* MonroneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BB4D91DED249B0059780C /* MonroneyTests.swift */; };
+		258BB4E51DED249B0059780C /* MonroneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BB4E41DED249B0059780C /* MonroneyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		258BB4D61DED249B0059780C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 258BB4BB1DED249B0059780C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 258BB4C21DED249B0059780C;
+			remoteInfo = Monroney;
+		};
+		258BB4E11DED249B0059780C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 258BB4BB1DED249B0059780C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 258BB4C21DED249B0059780C;
+			remoteInfo = Monroney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		258BB4C31DED249B0059780C /* Monroney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monroney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		258BB4C61DED249B0059780C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		258BB4C91DED249B0059780C /* Monroney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Monroney.xcdatamodel; sourceTree = "<group>"; };
+		258BB4CB1DED249B0059780C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		258BB4CE1DED249B0059780C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		258BB4D01DED249B0059780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258BB4D51DED249B0059780C /* MonroneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonroneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		258BB4D91DED249B0059780C /* MonroneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonroneyTests.swift; sourceTree = "<group>"; };
+		258BB4DB1DED249B0059780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258BB4E01DED249B0059780C /* MonroneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonroneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		258BB4E41DED249B0059780C /* MonroneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonroneyUITests.swift; sourceTree = "<group>"; };
+		258BB4E61DED249B0059780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		258BB4C01DED249B0059780C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258BB4D21DED249B0059780C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258BB4DD1DED249B0059780C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		258BB4BA1DED249B0059780C = {
+			isa = PBXGroup;
+			children = (
+				258BB4C51DED249B0059780C /* Monroney */,
+				258BB4D81DED249B0059780C /* MonroneyTests */,
+				258BB4E31DED249B0059780C /* MonroneyUITests */,
+				258BB4C41DED249B0059780C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		258BB4C41DED249B0059780C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				258BB4C31DED249B0059780C /* Monroney.app */,
+				258BB4D51DED249B0059780C /* MonroneyTests.xctest */,
+				258BB4E01DED249B0059780C /* MonroneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		258BB4C51DED249B0059780C /* Monroney */ = {
+			isa = PBXGroup;
+			children = (
+				258BB4C61DED249B0059780C /* AppDelegate.swift */,
+				258BB4CB1DED249B0059780C /* Assets.xcassets */,
+				258BB4CD1DED249B0059780C /* MainMenu.xib */,
+				258BB4D01DED249B0059780C /* Info.plist */,
+				258BB4C81DED249B0059780C /* Monroney.xcdatamodeld */,
+			);
+			path = Monroney;
+			sourceTree = "<group>";
+		};
+		258BB4D81DED249B0059780C /* MonroneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				258BB4D91DED249B0059780C /* MonroneyTests.swift */,
+				258BB4DB1DED249B0059780C /* Info.plist */,
+			);
+			path = MonroneyTests;
+			sourceTree = "<group>";
+		};
+		258BB4E31DED249B0059780C /* MonroneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				258BB4E41DED249B0059780C /* MonroneyUITests.swift */,
+				258BB4E61DED249B0059780C /* Info.plist */,
+			);
+			path = MonroneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		258BB4C21DED249B0059780C /* Monroney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258BB4E91DED249B0059780C /* Build configuration list for PBXNativeTarget "Monroney" */;
+			buildPhases = (
+				258BB4BF1DED249B0059780C /* Sources */,
+				258BB4C01DED249B0059780C /* Frameworks */,
+				258BB4C11DED249B0059780C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monroney;
+			productName = Monroney;
+			productReference = 258BB4C31DED249B0059780C /* Monroney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		258BB4D41DED249B0059780C /* MonroneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258BB4EC1DED249B0059780C /* Build configuration list for PBXNativeTarget "MonroneyTests" */;
+			buildPhases = (
+				258BB4D11DED249B0059780C /* Sources */,
+				258BB4D21DED249B0059780C /* Frameworks */,
+				258BB4D31DED249B0059780C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				258BB4D71DED249B0059780C /* PBXTargetDependency */,
+			);
+			name = MonroneyTests;
+			productName = MonroneyTests;
+			productReference = 258BB4D51DED249B0059780C /* MonroneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		258BB4DF1DED249B0059780C /* MonroneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258BB4EF1DED249B0059780C /* Build configuration list for PBXNativeTarget "MonroneyUITests" */;
+			buildPhases = (
+				258BB4DC1DED249B0059780C /* Sources */,
+				258BB4DD1DED249B0059780C /* Frameworks */,
+				258BB4DE1DED249B0059780C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				258BB4E21DED249B0059780C /* PBXTargetDependency */,
+			);
+			name = MonroneyUITests;
+			productName = MonroneyUITests;
+			productReference = 258BB4E01DED249B0059780C /* MonroneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		258BB4BB1DED249B0059780C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jeffrey Klarfeld";
+				TargetAttributes = {
+					258BB4C21DED249B0059780C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					258BB4D41DED249B0059780C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 258BB4C21DED249B0059780C;
+					};
+					258BB4DF1DED249B0059780C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 258BB4C21DED249B0059780C;
+					};
+				};
+			};
+			buildConfigurationList = 258BB4BE1DED249B0059780C /* Build configuration list for PBXProject "Monroney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 258BB4BA1DED249B0059780C;
+			productRefGroup = 258BB4C41DED249B0059780C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				258BB4C21DED249B0059780C /* Monroney */,
+				258BB4D41DED249B0059780C /* MonroneyTests */,
+				258BB4DF1DED249B0059780C /* MonroneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		258BB4C11DED249B0059780C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258BB4CC1DED249B0059780C /* Assets.xcassets in Resources */,
+				258BB4CF1DED249B0059780C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258BB4D31DED249B0059780C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258BB4DE1DED249B0059780C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		258BB4BF1DED249B0059780C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258BB4CA1DED249B0059780C /* Monroney.xcdatamodeld in Sources */,
+				258BB4C71DED249B0059780C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258BB4D11DED249B0059780C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258BB4DA1DED249B0059780C /* MonroneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258BB4DC1DED249B0059780C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258BB4E51DED249B0059780C /* MonroneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		258BB4D71DED249B0059780C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 258BB4C21DED249B0059780C /* Monroney */;
+			targetProxy = 258BB4D61DED249B0059780C /* PBXContainerItemProxy */;
+		};
+		258BB4E21DED249B0059780C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 258BB4C21DED249B0059780C /* Monroney */;
+			targetProxy = 258BB4E11DED249B0059780C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		258BB4CD1DED249B0059780C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				258BB4CE1DED249B0059780C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		258BB4E71DED249B0059780C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		258BB4E81DED249B0059780C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		258BB4EA1DED249B0059780C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Monroney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JKlarfeld.Monroney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		258BB4EB1DED249B0059780C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Monroney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JKlarfeld.Monroney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		258BB4ED1DED249B0059780C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MonroneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JKlarfeld.MonroneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monroney.app/Contents/MacOS/Monroney";
+			};
+			name = Debug;
+		};
+		258BB4EE1DED249B0059780C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MonroneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JKlarfeld.MonroneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monroney.app/Contents/MacOS/Monroney";
+			};
+			name = Release;
+		};
+		258BB4F01DED249B0059780C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MonroneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JKlarfeld.MonroneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Monroney;
+			};
+			name = Debug;
+		};
+		258BB4F11DED249B0059780C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MonroneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JKlarfeld.MonroneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Monroney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		258BB4BE1DED249B0059780C /* Build configuration list for PBXProject "Monroney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258BB4E71DED249B0059780C /* Debug */,
+				258BB4E81DED249B0059780C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		258BB4E91DED249B0059780C /* Build configuration list for PBXNativeTarget "Monroney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258BB4EA1DED249B0059780C /* Debug */,
+				258BB4EB1DED249B0059780C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		258BB4EC1DED249B0059780C /* Build configuration list for PBXNativeTarget "MonroneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258BB4ED1DED249B0059780C /* Debug */,
+				258BB4EE1DED249B0059780C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		258BB4EF1DED249B0059780C /* Build configuration list for PBXNativeTarget "MonroneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258BB4F01DED249B0059780C /* Debug */,
+				258BB4F11DED249B0059780C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		258BB4C81DED249B0059780C /* Monroney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				258BB4C91DED249B0059780C /* Monroney.xcdatamodel */,
+			);
+			currentVersion = 258BB4C91DED249B0059780C /* Monroney.xcdatamodel */;
+			path = Monroney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 258BB4BB1DED249B0059780C /* Project object */;
+}
