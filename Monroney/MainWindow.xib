@@ -20,7 +20,7 @@
             <rect key="contentRect" x="407" y="219" width="654" height="495"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
             <value key="minSize" type="size" width="650" height="500"/>
-            <value key="maxSize" type="size" width="650" height="500"/>
+            <value key="minFullScreenContentSize" type="size" width="650" height="500"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="654" height="495"/>
                 <autoresizingMask key="autoresizingMask"/>
