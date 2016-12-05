@@ -11,6 +11,8 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+	// MARK: - NSApplicationDelegate
+	
 	func applicationDidFinishLaunching(_ aNotification: Notification)
 	{
 		self.showMainWindow()
@@ -57,6 +59,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		}
 		// If we got here, it is time to quit.
 		return .terminateNow
+	}
+	
+	func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool
+	{
+		return true
 	}
 	
 	// MARK: - Instance Methods
