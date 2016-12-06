@@ -13,6 +13,7 @@
 		258BB4CF1DED249B0059780C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258BB4CD1DED249B0059780C /* MainMenu.xib */; };
 		258BB4DA1DED249B0059780C /* MonroneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BB4D91DED249B0059780C /* MonroneyTests.swift */; };
 		258BB4E51DED249B0059780C /* MonroneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BB4E41DED249B0059780C /* MonroneyUITests.swift */; };
+		25C892571DF4EA0400982CF2 /* AppDelegate+MenuHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C892561DF4EA0400982CF2 /* AppDelegate+MenuHandlers.swift */; };
 		25CF05A71DED2D95000F6060 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF05A61DED2D95000F6060 /* MainWindowController.swift */; };
 		25CF05A91DED2F83000F6060 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CF05A81DED2F83000F6060 /* MainWindow.xib */; };
 		25CF05AC1DED3620000F6060 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CF05AB1DED3620000F6060 /* WebKit.framework */; };
@@ -48,6 +49,7 @@
 		258BB4E01DED249B0059780C /* MonroneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonroneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		258BB4E41DED249B0059780C /* MonroneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonroneyUITests.swift; sourceTree = "<group>"; };
 		258BB4E61DED249B0059780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C892561DF4EA0400982CF2 /* AppDelegate+MenuHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+MenuHandlers.swift"; sourceTree = "<group>"; };
 		25CF05A61DED2D95000F6060 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		25CF05A81DED2F83000F6060 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		25CF05AB1DED3620000F6060 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -128,6 +130,14 @@
 			path = MonroneyUITests;
 			sourceTree = "<group>";
 		};
+		25C892551DF4E9E600982CF2 /* Menu Handler */ = {
+			isa = PBXGroup;
+			children = (
+				25C892561DF4EA0400982CF2 /* AppDelegate+MenuHandlers.swift */,
+			);
+			name = "Menu Handler";
+			sourceTree = "<group>";
+		};
 		25CF05A01DED2A78000F6060 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +161,7 @@
 		25CF05A21DED2AAE000F6060 /* App Delegate */ = {
 			isa = PBXGroup;
 			children = (
+				25C892551DF4E9E600982CF2 /* Menu Handler */,
 				258BB4C61DED249B0059780C /* AppDelegate.swift */,
 			);
 			name = "App Delegate";
@@ -308,6 +319,7 @@
 			files = (
 				258BB4CA1DED249B0059780C /* Monroney.xcdatamodeld in Sources */,
 				258BB4C71DED249B0059780C /* AppDelegate.swift in Sources */,
+				25C892571DF4EA0400982CF2 /* AppDelegate+MenuHandlers.swift in Sources */,
 				25CF05A71DED2D95000F6060 /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

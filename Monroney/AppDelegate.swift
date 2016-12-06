@@ -98,6 +98,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	
 	let mainWindowController: MainWindowController = MainWindowController(windowNibName: "MainWindow")
 	
+	var additionalWindows: [MainWindowController] = []
+	
 	lazy var applicationDocumentsDirectory: Foundation.URL = {
 		let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
 		let appSupportURL = urls[urls.count - 1]
